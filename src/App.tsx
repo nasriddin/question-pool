@@ -9,9 +9,7 @@ function App() {
   return (
     <>
     <Navbar menus={menuElements} />
-      <CardWrapper>
-        salom
-      </CardWrapper>
+    
     </>
   )
 }
