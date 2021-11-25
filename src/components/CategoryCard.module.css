@@ -1,0 +1,22 @@
+.card__category{
+    background-color: white;
+    text-align: center;
+    color:#000;
+    
+}
+.card__category-img{
+    width: 370px;
+    height: 200px;
+}
+.card__category-title{
+    font-size: 15px;
+    margin: 30px auto 30px auto;
+}
+.card__category-about{
+    font-size: 13px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}

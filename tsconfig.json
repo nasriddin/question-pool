@@ -24,6 +24,10 @@
   "include": [
     "tsconfig.paths.json"
   ],
-  "exclude": ["node_modules/*","build/*", "dist/*", "static/*"]
-  
+  "exclude": [
+    "node_modules/*",
+    "build/*",
+    "dist/*",
+    "static/*"
+  ]
 }
