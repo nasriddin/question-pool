@@ -1,0 +1,26 @@
+
+.select__selection-form{
+    appearance: none;
+    border: 0;
+    outline: 0;
+    font: inherit;
+    width: 20em;
+    height: 3em;
+    padding: 0 4em 0 1em;
+    background: url(https://upload.wikimedia.org/wikipedia/commons/9/9d/Caret_down_font_awesome_whitevariation.svg) no-repeat right 0.8em center / 1.4em, linear-gradient(to left, rgba(255, 255, 255, 0.3) 3em, rgba(255, 255, 255, 0.2) 3em);
+    color: white;
+    border-radius: 0.25em;
+    box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+
+}
+.select__selection-form .select__selection-option {
+    color: inherit;
+    background-color: #355df1;
+}
+.select__selection-form:focus {
+    outline: none;
+}
+.select__selection-form::-ms-expand {
+    display: none;
+}

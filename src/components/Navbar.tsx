@@ -1,4 +1,5 @@
 import React from "react"
+// @ts-ignore
 import style from './Navbar.module.css'
 import Menu from '../models/menu'
 
@@ -14,7 +15,7 @@ const Navbar: React.FC<{menus: Menu[]}> = (props)=>{
             </div>
             <div className={style["navbar__menu-container"]}>
                 {props.menus.map(item=>(
-                    <a className={style["navbar__menu-item"]} href={item.link}>
+                    <a className={style["navbar__menu-item"]} href={item.link} key={item.id}>
                         {item.name}
                     </a>
                 ))}
